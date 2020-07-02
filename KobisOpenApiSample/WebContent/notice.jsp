@@ -26,9 +26,9 @@
             <div class="row">
                 <div class="header clearfix">
                     <h1>
-                        <a href="#">
+                        <a href="http://www.dit.ac.kr/main/index.php">
                             <em><img src="assets/img/logo.png" alt="MEGABOX"></em>
-                            <strong><img src="assets/img/logo-sub.png" alt="LIFE THEATER"></strong>
+                            <strong><img src="assets/img/dit.png" alt="LIFE THEATER"></strong>
                         </a>    
                     </h1>
                     <nav id="mNav">
