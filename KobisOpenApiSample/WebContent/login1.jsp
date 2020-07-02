@@ -38,13 +38,13 @@
         </div>
         
 
-        <form>
+        <form method="post" action="loginPro.jsp">
             <div class="input">
                 <div class="input-addon">
                     <i class="material-icons">face</i>
                 </div>
-                <input id="username" placeholder="Username" type="text" required class="validate" autocomplete="off">
-            </div>
+                	<input id="username" placeholder="Username" name ="id" type="text" required class="validate" autocomplete="off">
+				</div>
 
             <div class="clearfix"></div>
 			
@@ -52,7 +52,7 @@
                 <div class="input-addon">
                     <i class="material-icons">vpn_key</i>
                 </div>               
-               <input id="password" placeholder="Password" type="password" required class="validate" autocomplete="off">                
+               <input id="password" placeholder="Password" name="pw" type="password" required class="validate" autocomplete="off">                
             </div>
             <div class="register">  
                

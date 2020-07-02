@@ -57,6 +57,11 @@ html,body {
     border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
 
+#pagination a {
+display:inline-block;
+margin-right:5px;
+cursor:pointer;
+}
 
 
 #movie {
@@ -68,7 +73,21 @@ html,body {
     border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
 
+/*LEJ테이블TR*/
+#lejtr {text-align: center; font-size: 22px; }
 
+.lejtrr {text-align: center; font-size: 18px; }
+
+.lejcompany185 {text-align: center;}
+/*LEJ여기까지*/
+.lejinput { 
+	margin-top: 15px; 
+}
+
+.lejtype { 
+	margin-top: 10px; 
+}
+/* 끝 */
 
 .lock {
    position: relative;

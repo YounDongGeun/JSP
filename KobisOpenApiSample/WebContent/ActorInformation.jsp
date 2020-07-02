@@ -1,12 +1,12 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
 	<meta name="author" content="Kodinger">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
-	<title>°øÁö »çÇ×</title>
+	<title>ê³µì§€ ì‚¬í•­</title>
 	
     
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -41,17 +41,17 @@
                         </a>    
                     </h1>
                     <nav id="mNav">
-                        <h2 class="ir_so">ÀÌ ¿µÈ¯ ¹¹Á¶</h2>
+                        <h2 class="ir_so">ì´ ì˜í™˜ ë­ì¡°</h2>
                         <a href="#" class="ham"><span></span></a>
                     </nav>
                     <nav class="nav">
                         <ul class="clearfix">
-                            <li><a href="sample1.jsp" method="post">¿µÈ­Á¤º¸</a></li>
-                            <li><a href="DirectorInformation.jsp" method="post">°¨µ¶Á¤º¸</a></li>
-                            <li><a href="ActorInformation.jsp" method="post">¹è¿ìÁ¤º¸</a></li>
+                            <li><a href="sample1.jsp" method="post">ì˜í™”ì •ë³´</a></li>
+                            <li><a href="DirectorInformation.jsp" method="post">ê°ë…ì •ë³´</a></li>
+                            <li><a href="ActorInformation.jsp" method="post">ë°°ìš°ì •ë³´</a></li>
                             <li><a href="information.jsp" method="post">Company</a></li>
-                            <li><a href="notice.jsp" method="post">°øÁö»çÇ×</a></li>
-                            <li><a href="login1.jsp" method="post">·Î±×ÀÎ</a></li>
+                            <li><a href="notice.jsp" method="post">ê³µì§€ì‚¬í•­</a></li>
+                            <li><a href="login1.jsp" method="post">ë¡œê·¸ì¸</a></li>
                         </ul>
                     </nav>    
                 </div>
@@ -95,41 +95,41 @@
     <div class="row align-items-center my-5">
     
       <div class="col-lg-7">
-      <!-- °¨µ¶ ÀÌ¹ÌÁö µé¾î°¡´Â ºÎºĞ-->
+      <!-- ê°ë… ì´ë¯¸ì§€ ë“¤ì–´ê°€ëŠ” ë¶€ë¶„-->
         <img class="img-fluid rounded mb-4 mb-lg-0" src="assets/img/ydg_action_Mposter3.jpg" alt="xxxx">
       </div>
       
       
       <!-- /.col-lg-8 
-      	°¨µ¶ÀÇ ¼³¸íÀÌ µé¾î°¡´Â ºÎºĞ	-->
+      	ê°ë…ì˜ ì„¤ëª…ì´ ë“¤ì–´ê°€ëŠ” ë¶€ë¶„	-->
       <div class="col-lg-5">
       
-      <!-- °¨µ¶ÀÌ¸§ºÎºĞ  ½ÃÀÛ-->
-        <h2 class="font-weight-light">Äí¿£Æ¾ Á¦·Ò Å¸¶õÆ¼³ë</h2>
+      <!-- ê°ë…ì´ë¦„ë¶€ë¶„  ì‹œì‘-->
+        <h2 class="font-weight-light">ì¿ ì—”í‹´ ì œë¡¬ íƒ€ë€í‹°ë…¸</h2>
         <h2 class="font-weight-light">(Quentin Jerome Tarantino)</h2>
-      <!-- °¨µ¶ÀÌ¸§ºÎºĞ  ³¡-->
-      <!-- °¨µ¶ ¼³¸í½ÃÀÛ  -->
+      <!-- ê°ë…ì´ë¦„ë¶€ë¶„  ë-->
+      <!-- ê°ë… ì„¤ëª…ì‹œì‘  -->
         <p>This is a template that is great for small businesses. It doesn't have too much fancy flare to it, but it makes a great use of the standard Bootstrap core components. Feel free to use this template for any project you want!</p>
-      <!-- °¨µ¶ ¼³¸í ³¡  -->
-        <a class="btn btn-primary" href="#">°¨µ¶ÀÇ ÀÎÅÍºä</a>
+      <!-- ê°ë… ì„¤ëª… ë  -->
+        <a class="btn btn-primary" href="#">ê°ë…ì˜ ì¸í„°ë·°</a>
       </div>
-      <!-- °¨µ¶ÀÇ ¼³¸íÀÌ ³¡³ª´Â ºÎºĞ	-->
+      <!-- ê°ë…ì˜ ì„¤ëª…ì´ ëë‚˜ëŠ” ë¶€ë¶„	-->
       <!-- /.col-md-4 -->
     </div>
     <!-- /.row -->
 
     <!-- Call to Action Well -->
-    <!-- °ËÀº div¶óÀÎÀÇ ±ÛÀ» Àû´Â °÷  (text-white m-0 : ±ÛÀÚ »öÀ» Èò»öÀ¸·Î)-->
+    <!-- ê²€ì€ divë¼ì¸ì˜ ê¸€ì„ ì ëŠ” ê³³  (text-white m-0 : ê¸€ì ìƒ‰ì„ í°ìƒ‰ìœ¼ë¡œ)-->
       <div class="card text-white bg-secondary my-5 py-4 text-center">
       <div class="card-body">
-        <p class="text-white m-0">³ªµµ Äí¿£Æ¾ Å¸¶õÆ¼³ë ÀÛÇ° ´À±ßÇÏ°Ô °¨»óÇÏ°í½Í´Ù ¾Æ·¡´Â °¨µ¶ÀÇ ¿µÈ­</p>
+        <p class="text-white m-0">ë‚˜ë„ ì¿ ì—”í‹´ íƒ€ë€í‹°ë…¸ ì‘í’ˆ ëŠê¸‹í•˜ê²Œ ê°ìƒí•˜ê³ ì‹¶ë‹¤ ì•„ë˜ëŠ” ê°ë…ì˜ ì˜í™”</p>
       </div>
     </div>  
 
     <!-- Content Row -->
-    <!-- ¹Ø¿¡ Ä«µåµéÀÇ ¹üÀ§ div -->
+    <!-- ë°‘ì— ì¹´ë“œë“¤ì˜ ë²”ìœ„ div -->
     <div class="row">
-     <!-- ¹üÀ§ ³»ÀÇ ¾ÆÀÌµé 1¹ø -->
+     <!-- ë²”ìœ„ ë‚´ì˜ ì•„ì´ë“¤ 1ë²ˆ -->
       <div class="col-md-4 mb-5">
         <div class="card h-100">
           <div class="card-body">
@@ -142,7 +142,7 @@
           </div>
         </div>
       </div>
-     <!-- ¹üÀ§ ³»ÀÇ ¾ÆÀÌµé 2¹ø -->      
+     <!-- ë²”ìœ„ ë‚´ì˜ ì•„ì´ë“¤ 2ë²ˆ -->      
       <!-- /.col-md-4 -->
       <div class="col-md-4 mb-5">
         <div class="card h-100">
@@ -156,7 +156,7 @@
           </div>
         </div>
       </div>
-     <!-- ¹üÀ§ ³»ÀÇ ¾ÆÀÌµé 3¹ø -->
+     <!-- ë²”ìœ„ ë‚´ì˜ ì•„ì´ë“¤ 3ë²ˆ -->
       <!-- /.col-md-4 -->
       <div class="col-md-4 mb-5">
         <div class="card h-100">

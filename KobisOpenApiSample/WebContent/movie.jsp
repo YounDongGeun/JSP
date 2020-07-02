@@ -6,7 +6,7 @@
 <meta charset="utf-8">
 	<meta name="author" content="Kodinger">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
-	<title>영화 정보</title>
+	<title>영화 검색</title>
 	
     
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -90,7 +90,111 @@
         </div>
     </section>
     
-    
+    <form>
+                       
+            <div class="moviebar">          		
+            <h3 id="movie-text">자유 게시판</h3>                        
+        </div>				      	     
+               <div class="moviebar">     
+	</div>    
+	   	
+       
+   
+</form>
+
+<div class="container">
+ 
+                                                                                   
+ <!--   <p>Resize the browser window to see the effect.</p> -->
+  <div class="moive_table">          
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th width="150" bgcolor="#8181F7" align="center">포스터</th>
+        <th align="center" 	bgcolor="#8181F7" align="center"  width="130">제목</th>
+        <th align="center"  bgcolor="#8181F7" align="center"  width="130">감독</th>
+        <th align="center"  bgcolor="#8181F7" align="center"  width="130">배우</th>
+        <th align="center"  bgcolor="#8181F7" align="center"  width="130">개봉일</th>
+        
+        
+      </tr>
+    </thead>
+    <tbody>
+       <tr>
+        <td><img src="assets/img/ydg_action_Mposter2.jpg" srcset="assets/img/ydg_action_Mposter2.jpg" alt="존윅2"></td>
+        <td>영화제목 </td>
+        <td>감독이름</td>
+        <td>배우이름</td>
+        <td>개봉일자</td>
+      </tr> <tr>
+        <td><img src="assets/img/ydg_action_Mposter2.jpg" srcset="assets/img/ydg_action_Mposter2.jpg" alt="존윅2"></td>
+        <td>영화제목 </td>
+        <td>감독이름</td>
+        <td>배우이름</td>
+        <td>개봉일자</td>
+      </tr> <tr>
+        <td><img src="assets/img/ydg_action_Mposter2.jpg" srcset="assets/img/ydg_action_Mposter2.jpg" alt="존윅2"></td>
+        <td>영화제목 </td>
+        <td>감독이름</td>
+        <td>배우이름</td>
+        <td>개봉일자</td>
+      </tr> <tr>
+        <td><img src="assets/img/ydg_action_Mposter2.jpg" srcset="assets/img/ydg_action_Mposter2.jpg" alt="존윅2"></td>
+        <td>영화제목 </td>
+        <td>감독이름</td>
+        <td>배우이름</td>
+        <td>개봉일자</td>
+      </tr> <tr>
+        <td><img src="assets/img/ydg_action_Mposter2.jpg" srcset="assets/img/ydg_action_Mposter2.jpg" alt="존윅2"></td>
+        <td>영화제목 </td>
+        <td>감독이름</td>
+        <td>배우이름</td>
+        <td>개봉일자</td>
+      </tr>
+      <tr>
+        <td><img src="assets/img/ydg_action_Mposter2.jpg" srcset="assets/img/ydg_action_Mposter2.jpg" alt="존윅2"></td>
+        <td>영화제목 </td>
+        <td>감독이름</td>
+        <td>배우이름</td>
+        <td>개봉일자</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+</div>
+
+ <footer id="footer">
+        <div id="footer_sns">
+            <div class="container">
+                <div class="footer_sns">
+                    <ul>
+                        <li class="icon s1"><a href="#"><span class="ir_pm">트위터</span></a></li>
+                        <li class="icon s2"><a href="#"><span class="ir_pm">페이스북</span></a></li>
+                        <li class="icon s3"><a href="#"><span class="ir_pm">인스타그램</span></a></li>
+                        <li class="icon s4"><a href="#"><span class="ir_pm">구글 플레이</span></a></li>
+                        <li class="icon s5"><a href="#"><span class="ir_pm">아이폰 앱스토어</span></a></li>
+                    </ul>    
+                    <div class="tel">
+                        <a href="#">ARS <em>051-999-999</em></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer_infor">
+            <div class="container">
+                <div class="row">
+                    <div class="footer_infor">
+                        <h2><img src="assets/img/logo.png" alt="megabox"></h2>
+                        
+                        <address>
+                            <p>부산광역시 부산진구 양지로 54<br><span class="bar2">대표자명 이어진</span> 개인정보보호 책임자 경영지원실 실장 김기완<br><span class="bar2">사업자등록번호 999-999-999</span> 통신판매업신고번호 제 833호</p>
+                            <p>Copyright 2020 by  WHAT IS THIS MOVIE Inc. All right reserved</p>
+                        </address>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 </body>
 </html>

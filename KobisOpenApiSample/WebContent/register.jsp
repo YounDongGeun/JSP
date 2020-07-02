@@ -58,18 +58,18 @@
             <i class="material-icons lock"><font color = "white" >lock</i> 회원가입
         </div>
 
-        <form>
+        <form method="post" action = "registerPro.jsp"> <!-- 이부분을 추가 -->>
             <div class="input">
                 <div class="input-addon">
                     <i class="material-icons">face</i>
                 </div>
-                <input id="name" placeholder="Name" type="text" required class="validate" autocomplete="off">
+                <input id="name" name = "id" placeholder="Name" type="text" required class="validate" autocomplete="off">
             </div>
             <div class="input">
                 <div class="input-addon">
                     <i class="material-icons">face</i>
                 </div>
-                <input id="username" placeholder="Username" type="text" required class="validate" autocomplete="off">
+                <input id="username" name = "pw" placeholder="Username" type="text" required class="validate" autocomplete="off">
             </div>
 
             <div class="clearfix"></div>
@@ -78,21 +78,21 @@
                 <div class="input-addon">
                     <i class="material-icons">vpn_key</i>
                 </div>
-                <input id="password" placeholder="Password" type="password" required class="validate" autocomplete="off">
+                <input id="password" name = "phone" placeholder="Password" type="password" required class="validate" autocomplete="off">
             </div>
             
             <div class="input">
                 <div class="input-addon">
                     <i class="material-icons">email</i>
                 </div>
-                <input id="Number" placeholder="Number" type="text" required class="validate" autocomplete="off">
+                <input id="Number" name = "name" placeholder="Number" type="text" required class="validate" autocomplete="off">
             </div>
             
             <div class="input">
                 <div class="input-addon">
                     <i class="material-icons">email</i>
                 </div>
-                <input id="email" placeholder="Email" type="email" required class="validate" autocomplete="off">
+                <input id="email" name = "email" placeholder="Email" type="email" required class="validate" autocomplete="off">
             </div>
 
             <div class="clearfix"></div>
@@ -104,7 +104,7 @@
             </div>
             <input type="submit" value="회원가입" />
             <a href="#"><button id="register-link" margin-top = "15px">뒤로가기 </button></a>
-        </form>
+		</form>
 
         <div class="privacy">
             <a href="#">회사 정책</a>

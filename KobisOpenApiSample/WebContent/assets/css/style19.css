@@ -21,6 +21,7 @@
 /* 가운데 영역 */
 .container {position: relative; width: 1400px; margin: 0 auto; /* background:rgba(0,0,0,0.1); */ }
 
+
 /* 로우 영역 */
 .row {padding: 0 16px;}
 
@@ -46,7 +47,7 @@
 .header h1 em img {width: 155px; }
 .header h1 strong {display: block; position: absolute; left: 170px; top: 14px;}
 .header h1 strong img {width: 157px;}
-.header .nav {float: right; }
+.header .nav {float: right;}
 .header .nav ul {border-left: 1px solid #c6c6c6;}
 .header .nav li {float: left; width: 85px; text-align: center; border-right: 1px solid #c6c6c6; }
 .header .nav li a {display: block; padding: 14px 10px; font-size: 15px; font-weight: 700; color: #444;}
@@ -77,7 +78,7 @@
 .slider {width: 100%;}
 .slider .ss1 {background: url(../img/ydgslider1.jpg) no-repeat center center; background-size: cover;}
 .slider .ss2 {background: url(../img/ydgslider2.jpg) no-repeat center center; background-size: cover;}
-.slider .ss5 {background: url(../img/ydgslider3.jpg) no-repeat center center; background-size: cover;}
+.slider .ss3 {background: url(../img/ydgslider3.jpg) no-repeat center center; background-size: cover;}
 .slider .swiper-slide {text-align: center;}
 .slider .swiper-slide.ss3 {text-align: left;} 
 .slider .swiper-slide h3 {font-size: 60px; color: #fff; margin-top: 250px; opacity: 1; }

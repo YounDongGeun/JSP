@@ -30,20 +30,17 @@
 	String key = "da46b02f1986121ca5ae31dc5d77048e";
 	// KOBIS 오픈 API Rest Client를 통해 호출
     KobisOpenAPIRestService service = new KobisOpenAPIRestService(key);
-
 	// 영화사코드조회 서비스 호출 (boolean isJson, String curPage, String itemPerPage, String companyNm, String ceoNm, String companyPartCd)
     String companyCdResponse = service.getCompanyList(true, curPage, itemPerPage, companyNm, ceoNm, companyPartCdArr);
 	// Json 라이브러리를 통해 Handling
 	ObjectMapper mapper = new ObjectMapper();
 	HashMap<String,Object> result = mapper.readValue(companyCdResponse, HashMap.class);
-
 	request.setAttribute("result",result);
 	
 	// KOBIS 오픈 API Rest Client를 통해 코드 서비스 호출 (boolean isJson, String comCode )
 	String companyPartCdResponse = service.getComCodeList(true,"2601");
 	HashMap<String,Object> companyPartCd = mapper.readValue(companyPartCdResponse, HashMap.class);
 	request.setAttribute("companyPartCd",companyPartCd);
-
     %>
 <html>
 <head>
@@ -77,14 +74,12 @@
 		}
 		companyPartCds += "]";
 %>
-
 $(function(){
 	var companyPartCd = <%=companyPartCds%>;
 	$(companyPartCd).each(function(){
 		$("input[name='companyPartCdArr'][value='"+this+"']").prop("checked",true);
 	});
 });
-
 <%
 	}
 %>
@@ -179,20 +174,24 @@ $(function(){
 	<c:out value="${result.companyListResult.totCnt}"/>
 	<div class="container">
 	<table border="1">
+		
+		<!-- 어진 코드 -->
+		 <tr class = "lejtrr">
+	            <td width="80">영화사<br>코드</td><td width="100">영화사명<br>(영문)</td><td width="100">영화사분류</td><td width="70">대표자명</td><td width="90">필모리스트</td><td width="200">작품</td>
+	        </tr>  
+	<!-- 어진 코드 -->
 	
-		<tr>
-			<td>영화사코드</td><td>영화사명(영문)</td><td>영화사분류</td><td>대표자명</td><td>필모리스트</td>
-		</tr>
 	<c:if test="${not empty result.companyListResult.companyList}">
 	<c:forEach items="${result.companyListResult.companyList}" var="company">
-		<tr>
+		<tr class = "lejcompany185">
 			<td><c:out value="${company.companyCd }"/></td><td><c:out value="${company.companyNm }"/></td><td><c:out value="${company.companyNmEn }"/></td><td><c:out value="${company.companyPartNames }"/></td>
 			<td><c:out value="${company.ceoNm}"/></td><td><c:out value="${company.filmoNames}"/></td>						
 		</tr>
 	</c:forEach>
 	</c:if>
 	</table>
-	<form action="">
+	<form action="">        
+	        <div class="lejinput">
 		현재페이지 :<input type="text" name="curPage" value="<%=curPage %>">
 		최대 출력갯수:<input type="text" name="itemPerPage" value="<%=itemPerPage %>">
 		영화사명:<input type="text" name="companyNm" value="<%=companyNm %>">		
@@ -203,7 +202,11 @@ $(function(){
 			<c:if test="${status.count %4 eq 0}"><br/></c:if>
 			</c:forEach>
 			<br/>
-		<input type="submit" name="" value="조회">
+			</div>
+			
+		<div class="lejinput"> 
+			<input type="submit" name="" value="조회">
+		</div>
 	</form>
 	</div>  
 </body>

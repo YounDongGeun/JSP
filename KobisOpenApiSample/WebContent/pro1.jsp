@@ -57,11 +57,12 @@
                     <h1>
                         <a href="#">
                             <em><img src="assets/img/logo.png" alt="MEGABOX"></em>
-                            <strong><img src="assets/img/logo-sub.png" alt="LIFE THEATER"></strong>
+                            <strong><img src="assets/img/dit.png" alt="LIFE THEATER"></strong>
                         </a>    
                     </h1>
                     <nav id="mNav">
                         <h2 class="ir_so">이 영환 뭐조</h2>
+                            <strong><img src="assets/img/dit.png" alt="LIFE THEATER"></strong>
                         <a href="#" class="ham"><span></span></a>
                     </nav>
                     <nav class="nav">
@@ -80,7 +81,7 @@
     </header>
     <!-- //header -->
     
-    
+    <!-- 윤동근 1번째 손대는 부분 -->
     <section id="banner">
         <div class="banner_menu">
             <h2 class="ir_so">배너 영역</h2>
@@ -88,21 +89,21 @@
                 <div class="row">
                     <div class="bm_left">
                         <ul>
-                            <li class="total"><a href="#">전체메뉴</a></li>
-                            <li class="line"><a href="#">필름 소사이어티</a></li>
-                            <li><a href="#">클래식 소사이어티</a></li>
+                            <li class="line"><a href="#">영화 정보</a></li>
+							<li class="line"><a href="#">감독 정보</a></li>
+							<li><a href="#">Company</a></li>
                         </ul>
                     </div>
                     <div class="bm_right">
                         <ul>
-                            <li class="line"><a href="custom/faq.html">고객센터</a></li>
-                            <li class="line"><a href="#">멤버쉽</a></li>
-                            <li><a href="#">VIP</a></li>
+                           	<li class="line"><a href="custom/faq.html">엄준식</a></li>
+							<li class="line"><a href="#">캐뤼</a></li>
                         </ul>
-                        <ul>
+                       <!-- <ul>
                             <li class="white"><a href="#">상영시간표</a></li>
                             <li class="purple"><a href="#">빠른예매</a></li>
-                        </ul>
+                        </ul> -->
+                        
                     </div>
                 </div>
             </div>
@@ -163,7 +164,7 @@
                                <div class="swiper-slide">
                                    <div class="poster">
                                        <figure>
-                                           <img src="assets/img/ydg_k_Mposter1.jpg" srcset="assets/img/ydg_k_Mposter1.jpg" alt="살인의 추억">
+                                           <img src="assets/img/ydg_k_Mposter1.jpg" srcset="assets/img/ydg_k_Mposter1.jpg 2x" alt="살인의 추억">
                                        </figure>
                                        <div class="rank"><strong>추천</strong></div>
                                        <div class="mx">
@@ -181,7 +182,7 @@
                                <div class="swiper-slide">
                                    <div class="poster">
                                        <figure>
-                                           <img src="assets/img/ydg_k_Mposter2.jpg" srcset="assets/img/ydg_k_Mposter2.jpg" alt="악마를 보았다">
+                                           <img src="assets/img/ydg_k_Mposter2.jpg" srcset="assets/img/ydg_k_Mposter2.jpg 2x" alt="악마를 보았다">
                                        </figure>
                                        <div class="rank"><strong>추천</strong></div>
                                        <div class="mx">
@@ -199,7 +200,7 @@
                                <div class="swiper-slide">
                                    <div class="poster">
                                        <figure>
-                                           <img src="assets/img/ydg_k_Mposter3.jpg" srcset="assets/img/ydg_k_Mposter3.jpg" alt="부당거래">
+                                           <img src="assets/img/ydg_k_Mposter3.jpg" srcset="assets/img/ydg_k_Mposter3.jpg 2x" alt="부당거래">
                                        </figure>
                                        <div class="rank"><strong>추천</strong></div>
                                        <div class="mx">
@@ -217,7 +218,7 @@
                                <div class="swiper-slide">
                                    <div class="poster">
                                        <figure>
-                                           <img src="assets/img/ydg_k_Mposter4.jpg" srcset="assets/img/ydg_k_Mposter4.jpg" alt="올드보이">
+                                           <img src="assets/img/ydg_k_Mposter4.jpg" srcset="assets/img/ydg_k_Mposter4.jpg 2x" alt="올드보이">
                                        </figure>
                                        <div class="rank"><strong>추천</strong></div>
                                        <div class="mx">
@@ -235,7 +236,7 @@
                                <div class="swiper-slide">
                                    <div class="poster">
                                        <figure>
-                                           <img src="assets/img/ydg_k_Mposter5.jpg" srcset="assets/img/ydg_k_Mposter5.jpg" alt="추격자">
+                                           <img src="assets/img/ydg_k_Mposter5.jpg" srcset="assets/img/ydg_k_Mposter5.jpg 2x" alt="추격자">
                                        </figure>
                                        <div class="rank"><strong>추천</strong></div>
                                        <div class="mx">
@@ -253,7 +254,7 @@
                                <div class="swiper-slide">
                                    <div class="poster">
                                        <figure>
-                                           <img src="assets/img/ydg_k_Mposter6.jpg" srcset="assets/img/ydg_k_Mposter6.jpg" alt="7번방의 선물">
+                                           <img src="assets/img/ydg_k_Mposter6.jpg" srcset="assets/img/ydg_k_Mposter6.jpg 2x" alt="7번방의 선물">
                                        </figure>
                                        <div class="rank"><strong>추천</strong></div>
                                        <div class="mx">
@@ -271,7 +272,7 @@
                                <div class="swiper-slide">
                                    <div class="poster">
                                        <figure>
-                                           <img src="assets/img/ydg_k_Mposter7.jpg" srcset="assets/img/ydg_k_Mposter7.jpg" alt="신세계">
+                                           <img src="assets/img/ydg_k_Mposter7.jpg" srcset="assets/img/ydg_k_Mposter7.jpg 2x" alt="신세계">
                                        </figure>
                                        <div class="rank"><strong>추천</strong></div>
                                        <div class="mx">
@@ -289,7 +290,7 @@
                                <div class="swiper-slide">
                                    <div class="poster">
                                        <figure>
-                                           <img src="assets/img/ydg_k_Mposter8.jpg" srcset="assets/img/ydg_k_Mposter8.jpg" alt="박하사탕">
+                                           <img src="assets/img/ydg_k_Mposter8.jpg" srcset="assets/img/ydg_k_Mposter8.jpg 2x" alt="박하사탕">
                                        </figure>
                                        <div class="rank"><strong>추천</strong></div>
                                        <div class="mx">
@@ -313,7 +314,7 @@
                                 <div class="swiper-slide">
                                     <div class="poster">
                                         <figure>
-                                            <img src="assets/img/ydg_action_Mposter1.jpg" srcset="assets/img/ydg_action_Mposter1.jpg" alt="존윅1">
+                                            <img src="assets/img/ydg_action_Mposter1.jpg" srcset="assets/img/ydg_action_Mposter1.jpg 2x" alt="존윅1">
                                         </figure>
                                         <div class="rank"><strong>추천</strong></div>
                                         <div class="mx">
@@ -332,7 +333,7 @@
                                 <div class="swiper-slide">
                                     <div class="poster">
                                         <figure>
-                                            <img src="assets/img/ydg_action_Mposter2.jpg" srcset="assets/img/ydg_action_Mposter2.jpg" alt="존윅2">
+                                            <img src="assets/img/ydg_action_Mposter2.jpg" srcset="assets/img/ydg_action_Mposter2.jpg 2x" alt="존윅2">
                                         </figure>
                                         <div class="rank"><strong>2</strong></div>
                                         <div class="mx">
@@ -350,7 +351,7 @@
                                 <div class="swiper-slide">
                                     <div class="poster">
                                         <figure>
-                                            <img src="assets/img/ydg_action_Mposter3.jpg" srcset="assets/img/ydg_action_Mposter3.jpg" alt="존윅3">
+                                            <img src="assets/img/ydg_action_Mposter3.jpg" srcset="assets/img/ydg_action_Mposter3.jpg 2x" alt="존윅3">
                                         </figure>
                                         <div class="rank"><strong>3</strong></div>
                                         <div class="mx">
@@ -368,7 +369,7 @@
                                 <div class="swiper-slide">
                                     <div class="poster">
                                         <figure>
-                                            <img src="assets/img/ydg_action_Mposter4.jpg" srcset="assets/img/ydg_action_Mposter4.jpg" alt="데드풀">
+                                            <img src="assets/img/ydg_action_Mposter4.jpg" srcset="assets/img/ydg_action_Mposter4.jpg 2x" alt="데드풀">
                                         </figure>
                                         <div class="rank"><strong>4</strong></div>
                                         <div class="mx">
@@ -386,7 +387,7 @@
                                 <div class="swiper-slide">
                                     <div class="poster">
                                         <figure>
-                                            <img src="assets/img/ydg_action_Mposter5.jpg" srcset="assets/img/ydg_action_Mposter5.jpg" alt="다크나이트">
+                                            <img src="assets/img/ydg_action_Mposter5.jpg" srcset="assets/img/ydg_action_Mposter5.jpg 2x" alt="다크나이트">
                                         </figure>
                                         <div class="rank"><strong>4</strong></div>
                                         <div class="mx">
@@ -404,7 +405,7 @@
                                 <div class="swiper-slide">
                                     <div class="poster">
                                         <figure>
-                                            <img src="assets/img/ydg_action_Mposter6.jpg" srcset="assets/img/ydg_action_Mposter6.jpg" alt="킹스맨:골든서클">
+                                            <img src="assets/img/ydg_action_Mposter6.jpg" srcset="assets/img/ydg_action_Mposter6.jpg 2x" alt="킹스맨:골든서클">
                                         </figure>
                                         <div class="rank"><strong>4</strong></div>
                                         <div class="mx">
@@ -422,7 +423,7 @@
                                 <div class="swiper-slide">
                                     <div class="poster">
                                         <figure>
-                                            <img src="assets/img/ydg_action_Mposter7.jpg" srcset="assets/img/ydg_action_Mposter7.jpg" alt="나쁜녀석들 포에버">
+                                            <img src="assets/img/ydg_action_Mposter7.jpg" srcset="assets/img/ydg_action_Mposter7.jpg 2x" alt="나쁜녀석들 포에버">
                                         </figure>
                                         <div class="rank"><strong>1</strong></div>
                                         <div class="mx">
@@ -440,7 +441,7 @@
                                 <div class="swiper-slide">
                                     <div class="poster">
                                         <figure>
-                                            <img src="assets/img/ydg_action_Mposter8.jpg" srcset="assets/img/ydg_action_Mposter8.jpg" alt="본 얼티메이텀">
+                                            <img src="assets/img/ydg_action_Mposter8.jpg" srcset="assets/img/ydg_action_Mposter8.jpg 2x" alt="본 얼티메이텀">
                                         </figure>
                                         <div class="rank"><strong>1</strong></div>
                                         <div class="mx">
@@ -464,7 +465,7 @@
                                 <div class="swiper-slide">
                                     <div class="poster">
                                         <figure>
-                                            <img src="assets/img/ydg_action_Mposter7.jpg" srcset="assets/img/ydg_action_Mposter7.jpg" alt="나쁜녀석들 포에버">
+                                            <img src="assets/img/ydg_action_Mposter7.jpg" srcset="assets/img/ydg_action_Mposter7.jpg 2x" alt="나쁜녀석들 포에버">
                                         </figure>
                                         <div class="rank"><strong>1</strong></div>
                                         <div class="mx">
@@ -483,7 +484,7 @@
                                 <div class="swiper-slide">
                                     <div class="poster">
                                         <figure>
-                                            <img src="assets/img/poster01.jpg" srcset="assets/img/poster01@2.jpg" alt="신세계">
+                                            <img src="assets/img/poster01.jpg" srcset="assets/img/poster01@2.jpg 2x" alt="신세계">
                                         </figure>
                                         <div class="rank"><strong>2</strong></div>
                                         <div class="mx">
@@ -501,7 +502,7 @@
                                 <div class="swiper-slide">
                                     <div class="poster">
                                         <figure>
-                                            <img src="assets/img/poster02.jpg" srcset="assets/img/poster02@2.jpg" alt="마스터">
+                                            <img src="assets/img/poster02.jpg" srcset="assets/img/poster02@2.jpg 2x" alt="마스터">
                                         </figure>
                                         <div class="rank"><strong>3</strong></div>
                                         <div class="mx">
@@ -519,7 +520,7 @@
                                 <div class="swiper-slide">
                                     <div class="poster">
                                         <figure>
-                                            <img src="assets/img/poster03.jpg" srcset="assets/img/poster03@2.jpg" alt="마약왕">
+                                            <img src="assets/img/poster03.jpg" srcset="assets/img/poster03@2.jpg 2x" alt="마약왕">
                                         </figure>
                                         <div class="rank"><strong>4</strong></div>
                                         <div class="mx">
@@ -537,7 +538,7 @@
                                 <div class="swiper-slide">
                                     <div class="poster">
                                         <figure>
-                                            <img src="assets/img/poster03.jpg" srcset="assets/img/poster03@2.jpg" alt="마약왕">
+                                            <img src="assets/img/poster03.jpg" srcset="assets/img/poster03@2.jpg 2x" alt="마약왕">
                                         </figure>
                                         <div class="rank"><strong>4</strong></div>
                                         <div class="mx">
@@ -555,7 +556,7 @@
                                 <div class="swiper-slide">
                                     <div class="poster">
                                         <figure>
-                                            <img src="assets/img/poster03.jpg" srcset="assets/img/poster03@2.jpg" alt="마약왕">
+                                            <img src="assets/img/poster03.jpg" srcset="assets/img/poster03@2.jpg 2x" alt="마약왕">
                                         </figure>
                                         <div class="rank"><strong>4</strong></div>
                                         <div class="mx">
@@ -579,7 +580,7 @@
                                 <div class="swiper-slide">
                                     <div class="poster">
                                         <figure>
-                                            <img src="assets/img/poster04.jpg" srcset="assets/img/poster04@2.jpg" alt="침묵">
+                                            <img src="assets/img/poster04.jpg" srcset="assets/img/poster04@2.jpg 2x alt="침묵">
                                         </figure>
                                         <div class="rank"><strong>1</strong></div>
                                         <div class="mx">
@@ -598,7 +599,7 @@
                                 <div class="swiper-slide">
                                     <div class="poster">
                                         <figure>
-                                            <img src="assets/img/poster05.jpg" srcset="assets/img/poster05@2.jpg" alt="신세계">
+                                            <img src="assets/img/poster05.jpg" srcset="assets/img/poster05@2.jpg 2x" alt="신세계">
                                         </figure>
                                         <div class="rank"><strong>2</strong></div>
                                         <div class="mx">
@@ -616,7 +617,7 @@
                                 <div class="swiper-slide">
                                     <div class="poster">
                                         <figure>
-                                            <img src="assets/img/poster06.jpg" srcset="assets/img/poster06@2.jpg" alt="마스터">
+                                            <img src="assets/img/poster06.jpg" srcset="assets/img/poster06@2.jpg 2x" alt="마스터">
                                         </figure>
                                         <div class="rank"><strong>3</strong></div>
                                         <div class="mx">
@@ -634,7 +635,7 @@
                                 <div class="swiper-slide">
                                     <div class="poster">
                                         <figure>
-                                            <img src="assets/img/poster07.jpg" srcset="assets/img/poster07@2.jpg" alt="마약왕">
+                                            <img src="assets/img/poster07.jpg" srcset="assets/img/poster07@2.jpg 2x" alt="마약왕">
                                         </figure>
                                         <div class="rank"><strong>4</strong></div>
                                         <div class="mx">
